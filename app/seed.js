@@ -1,5 +1,4 @@
-window.Seed = (function () {
-  function generateVoteCount() {
+function generateVoteCount() {
     return Math.floor((Math.random() * 50) + 15);
   }
 
@@ -10,7 +9,7 @@ window.Seed = (function () {
       description: 'On-demand sand castle construction expertise.',
       url: '#',
       votes: generateVoteCount(),
-      submitterAvatarUrl: 'images/avatars/128.jpg',
+      submitterAvatarUrl: 'images/avatars/128.png',
       productImageUrl: 'images/products/image-aqua.png',
     },
     {
@@ -37,10 +36,9 @@ window.Seed = (function () {
       description: 'High-minded or absent-minded? You decide.',
       url: '#',
       votes: generateVoteCount(),
-      submitterAvatarUrl: 'images/avatars/molly.png',
+      submitterAvatarUrl: 'images/avatars/131.png',
       productImageUrl: 'images/products/image-yellow.png',
     },
   ];
 
-  return { products: products };
-}());
+export {products, generateVoteCount};

@@ -1,9 +1,9 @@
 import React from 'react';
-import ReactDom from 'react-dom';
+import ReactDOM from 'react-dom';
 require('./index.css');
 import ProductList from './components/ProductList';
 
-ReactDom.render(
-<ProductList/>,
-    document.getElementById('content')
+ReactDOM.render(
+  <ProductList />,
+  document.getElementById('content')
 )
