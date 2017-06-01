@@ -8,8 +8,12 @@
     "start": "webpack-dev-server --open"
   },
   "babel": {
-      "presets":["env","react"]
+    "presets": [
+      "env",
+      "react"
+    ]
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
