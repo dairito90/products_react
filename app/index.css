@@ -8,12 +8,12 @@
     border: 1px solid black;
     padding: 0 30px 0 30px;
     letter-spacing: .5px;
-    max-width: 50%;
+    max-width: 60%;
 }
 
-body {
-    margin-left: 250px;
-}
+/*body {
+    margin-left: 150px;
+}*/
 
 h1 {
     text-align: center;
@@ -29,13 +29,16 @@ h1 {
     border-bottom: .5px solid;
 }
 
-.image {
+/*.image {
   display: flex;
   justify-content: center;
   margin: 10px;
-}
+}*/
 
 .productimg {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
   height: 30vh;
   width: inherit;
   position: relative;
